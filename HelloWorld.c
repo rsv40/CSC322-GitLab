@@ -5,7 +5,7 @@
 int main(void) {
 
 <<<<<<< HEAD
-    printf("Hello Very Happy World!\n");
+    printf("Hello Crazy World!\n");
 
     return(EXIT_SUCCESS);
 }
