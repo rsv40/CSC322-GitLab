@@ -1,0 +1,8 @@
+* 8c63c28 (HEAD -> main, origin/main) Change_greeting_to_Hello_Crazy_World
+*   97a1a1c Merge Happy into main
+|\  
+| * a420e07 (origin/Happy, Happy) Change greeting to Hello Happy World! (on Happy branch)
+* | 2229b3f Change greeting to Hello Very Crool World! (on main)
+|/  
+* 1b5ca89 Change_greeting_to_Hello_Crool_World
+* 6beafe0 Inital commit HelloWorld.c

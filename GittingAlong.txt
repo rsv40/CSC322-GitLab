@@ -1,0 +1,34 @@
+mkdir GitLab
+cd GitLab
+cp ~/labtask-06-rsv40/HelloWorld.c
+ls
+git init
+git status
+git add HelloWorld.c
+git commit -m "Initial commit HelloWorld.c"
+(used git hub on computer to make a public respository)
+git remote add origin https://rsv40/CSC322-GitLab.git
+git branch -M main
+git push -u origin main
+(entered user & password, had to make an SSH key to get it to actually work)
+vi HelloWorld.c (used insert mode to change greeting to Hello Crool World!)
+git commit -am Change_greeting_to_Hello_Crool_World (didn't let me use double quotes here for some reason kept getting stuck in dquote)
+git push
+git branch Happy
+git checkout Happy
+git push --set-upstream origin Happy
+vi HelloWorld.c (used insert mode to change greeting to Hello Happy World!)
+git commit -am "Change greeting to Hello Happy World! (on Happy branch)"
+git push
+git checkout main
+vi HelloWorld.c (used insert mode to change greting to Hello Very Crool World!)
+git commit - am "Change greeting to Hello Very Crool World! (on main)"
+git push
+git merge Happy (merge conflict so had to manually do it...)
+vi HelloWorld.c (used insert mode to change to Hello Very Happy World! and manually merge the changes)
+git add HelloWorld.c
+git commit - m "Merge Happy into main"
+git push
+vi HelloWorld.c (used insert to change ot Hello Crazy World!)
+git commit -am Change_greeeting_to_Hello_Crazy_World
+git push
